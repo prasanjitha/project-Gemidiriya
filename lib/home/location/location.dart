@@ -19,6 +19,7 @@ class _homeState extends State<home> {
         centerTitle: true,
 
       ),
+
     );
   }
 }
