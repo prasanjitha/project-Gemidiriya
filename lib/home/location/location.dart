@@ -16,9 +16,20 @@ class _homeState extends State<home> {
           "Gemidiriya",
           style: TextStyle(color: Colors.green, fontSize: 28),
         ),
-        centerTitle: true,
+        centerTitle: true;
 
       ),
+
+    );
+  }
+}
+
+class adminpanel extends StatelessWidget {
+  const adminpanel({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
 
     );
   }
