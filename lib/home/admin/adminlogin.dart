@@ -10,6 +10,10 @@ class adminlogin extends StatefulWidget {
 class _adminloginState extends State<adminlogin> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Admin Panel"),
+      ),
+    );
   }
 }
