@@ -10,6 +10,10 @@ class faemerHome extends StatefulWidget {
 class _faemerHomeState extends State<faemerHome> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Farmer Home"),
+      ),
+    );
   }
 }
