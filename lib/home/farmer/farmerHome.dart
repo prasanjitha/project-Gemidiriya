@@ -11,14 +11,12 @@ class _faemerHomeState extends State<faemerHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Farmer Home"),
-          centertitle:true
-        ),
-        body: ListView(
-          child:Column(
-            children:[]
-          )
-        );
+      appBar: AppBar(
+        title: Text("Farmer Home"),
+      ),
+      body: ListView(
+        children: [],
+      ),
+    );
   }
 }
