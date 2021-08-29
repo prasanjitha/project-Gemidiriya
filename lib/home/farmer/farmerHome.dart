@@ -13,7 +13,10 @@ class _faemerHomeState extends State<faemerHome> {
     return Scaffold(
         appBar: AppBar(
           title: Text("Farmer Home"),
+          centertitle:true
         ),
-        body: ListView());
+        body: ListView(
+          
+        );
   }
 }
