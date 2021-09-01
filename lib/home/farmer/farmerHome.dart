@@ -26,3 +26,17 @@ class _faemerHomeState extends State<faemerHome> {
     );
   }
 }
+
+class dbconnection extends StatefulWidget {
+  const dbconnection({Key? key}) : super(key: key);
+
+  @override
+  _dbconnectionState createState() => _dbconnectionState();
+}
+
+class _dbconnectionState extends State<dbconnection> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
