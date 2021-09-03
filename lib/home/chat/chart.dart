@@ -13,7 +13,7 @@ class _homeState extends State<home> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Gemidiriya",
+          "Gemidiriyas",
           style: TextStyle(color: Colors.green, fontSize: 28),
         ),
         centerTitle: true,
