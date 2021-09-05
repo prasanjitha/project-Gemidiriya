@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class home extends StatefulWidget {
@@ -32,6 +33,10 @@ class devops extends StatefulWidget {
 class _devopsState extends State<devops> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Happys"),
+      ),
+    );
   }
 }
