@@ -21,3 +21,17 @@ class _homeState extends State<home> {
     );
   }
 }
+
+class devops extends StatefulWidget {
+  const devops({Key? key}) : super(key: key);
+
+  @override
+  _devopsState createState() => _devopsState();
+}
+
+class _devopsState extends State<devops> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
