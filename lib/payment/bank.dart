@@ -14,8 +14,8 @@ class _bankPaymentState extends State<bankPayment> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Add Your Payment"),
-        centerTitle: true,
+        title: Text("Add Your Payments"),
+        centerTitle: false,
       ),
     );
   }
