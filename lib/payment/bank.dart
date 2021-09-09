@@ -17,6 +17,8 @@ class _bankPaymentState extends State<bankPayment> {
           title: Text("Add Your Payments"),
           centerTitle: false,
         ),
-        body: Container());
+        body: Container(
+          child: Text(""),
+        ));
   }
 }
