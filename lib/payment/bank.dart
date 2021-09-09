@@ -13,10 +13,10 @@ class _bankPaymentState extends State<bankPayment> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Add Your Payments"),
-        centerTitle: false,
-      ),
-    );
+        appBar: AppBar(
+          title: Text("Add Your Payments"),
+          centerTitle: false,
+        ),
+        body: Container());
   }
 }
