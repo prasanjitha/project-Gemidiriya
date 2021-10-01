@@ -8,6 +8,8 @@ class security extends StatefulWidget {
 class _securityState extends State<security> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appbar:AppBar("new");
+    );
   }
 }
