@@ -11,7 +11,7 @@ class _securityState extends State<security> {
     return Scaffold(
         appbar: AppBar("news"),
         body: Container(
-          child: Text("Home for bulids"),
+          child: Text("Home is bulid by bass"),
         ));
   }
 }
