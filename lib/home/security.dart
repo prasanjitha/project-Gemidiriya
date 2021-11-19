@@ -9,7 +9,7 @@ class _securityState extends State<security> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appbar: AppBar("news app screen"),
+        appbar: AppBar("news app screen for home"),
         body: Container(
           child: Text("Home is bulid by bass good ones add new thing"),
         ));
