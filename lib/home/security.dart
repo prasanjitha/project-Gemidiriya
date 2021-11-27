@@ -12,7 +12,7 @@ class _securityState extends State<security> {
         appbar: AppBar("news app screen for home add someone"),
         body: Container(
           child: Text(
-              "Home is bulid by bass good ones add the new thing is added. It's better. Yes it is."),
+              "Home is bulid by bass good ones add the new thing is added. It's better. Yes it is. yes"),
         ));
   }
 }
